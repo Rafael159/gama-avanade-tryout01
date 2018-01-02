@@ -1,0 +1,79 @@
+/*Arquivo de estilo da página index.html*/
+html, body{margin:0px; padding:0px;}
+/*Estilo header*/
+.banner{
+	width: 100%;
+    height: 371px;
+    background-image: url(../img/background-main.jpg);
+    background-position: left;
+    text-align: center;
+    padding-top: 40px;
+}
+.banner h1{
+	font-family: "Montserrat", Arial, sans-serif;
+    font-size: 2.3em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 12px;
+    padding: 0 41px;
+}
+.banner p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;	
+	color:#dfdede;
+	margin-top:20px;
+	line-height: 1.4;
+	padding: 0px 75px;
+}
+.banner #btn-apply-form{
+	padding:10px 18px;
+	cursor: pointer;
+	font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+/*Estilo conteúdo*/
+#conteudo{
+	width: 100%;
+	margin-top:33px;	
+	text-align: center;
+	padding: 0px 20px;
+}
+#conteudo .steps{
+	padding: 5px;
+}
+#conteudo .title{
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+#conteudo .prazo{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#conteudo .info{
+	margin-top:10px;
+	font-size: 15px;
+}
+#apply-success, #apply-error{
+	margin-top: 15px;
+	display: none;
+}
+.close, #btn-apply{outline: none !important; cursor: pointer !important;}
+
+.container-fluid{padding:0 !important;}
+
+/*Medias queries*/
+@media screen and (max-width:376px){
+	.banner{
+		padding-top: 16px;
+	}
+	.banner h1{
+		font-size: 2.1em;
+	    margin-top: 9px;
+	    padding: 0px 10px;
+	}
+	.banner p{
+	    padding: 0px 24px;
+   		margin-top: 39px;
+   	}
+} 
